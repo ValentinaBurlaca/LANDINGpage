@@ -1,0 +1,230 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    height: 660px;
+    opacity: 0.3;
+    position: relative;
+    z-index: -1;
+}
+
+nav {
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    width: 100%;
+    height: 85px;
+    z-index: 1;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 85%;
+    padding-top: 2%;
+}
+
+nav ul li {
+    margin-left: 2.5em;
+}
+
+nav img {
+    padding-left: 5%;
+    position: fixed;
+    width: 150px;
+    height: 80px;
+    z-index: 1;
+    opacity: 1;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    margin: 0 10%;
+    padding: 2em 0;
+}
+
+.content p {
+    position: relative;
+    font-size: 19px;
+    width: 50%;
+}
+
+.content button {
+    border-radius: 20px;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(36, 113, 163);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s;
+    
+}
+
+section {
+    padding-top: 2%;
+    position: relative;
+    border: 1px solid green;
+}
+
+section header {
+    position: relative;
+}
+
+.wave {
+    position: relative;
+    width: 100%;
+    margin-bottom: -5px;
+    margin-top: 5%;
+}
+
+#theory {
+    position: relative;
+    background-color: rgb(236, 234, 234);
+    padding-left: 10%;
+}
+
+#theory div img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 400px;
+    height: 300px;
+}
+
+#theory div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+}
+
+#theory header {
+    padding-left: 10%;
+    text-shadow: rgba(36, 113, 163, 0.5) 2px 5px;
+}
+
+#theory header h1 {
+    font-size: 40px;
+}
+
+
+#theory ul {
+    margin-top: 15%;
+}
+
+#theory li {
+    font-weight: normal;
+}
+
+/*-----tasks----*/
+#tasks {
+    position: relative;
+    padding-left: 10%;
+}
+#tasks header {
+    text-shadow: rgba(36, 113, 163, 0.5) 2px 5px;
+}
+
+#tasks header h1 {
+    font-size: 40px;
+}
+
+#tasks div {
+    display: grid;
+    grid-template-columns: 40% auto;
+    
+}
+
+#tasks div pre {
+    border: 0;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/*------video-----*/
+#video {
+    position: relative; 
+    padding-left: 10%;
+    background-color:whitesmoke;
+}
+
+#video header {
+    text-shadow: rgba(36, 113, 163, 0.5) 2px 5px;
+    font-size: 25px ;
+}
+
+#video hr {
+    width: 400px;
+    margin-left: 0;
+}
+
+#video div {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    border: 1px solid#263640;
+    background-color: #263640;
+    color: white;
+    width: 50%;
+    height: 400px;
+}
+
+#video div h2 {
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+#video div p {
+    font-size: 20px;
+}
+
+#video button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0;
+    margin-top: 5%;
+}
+
+video {
+    position: relative;
+    width: 500px;
+    margin-left: 550px;
+    margin-top: -15%;
+}
+
+/*------contacts----*/
+#contacts {
+    position: relative;
+}
+footer {
+    position: relative;
+    border: 1px solid blue;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color:rgb(36, 113, 163);
+}
+
+header li {
+    list-style: none;
+}
+
+
