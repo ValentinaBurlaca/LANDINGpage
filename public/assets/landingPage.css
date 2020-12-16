@@ -294,15 +294,7 @@ video {
     animation-delay: 1s;
 }
 
-.right {
-    grid: 1;
-    background-color: black;
-    transition: 1s;
-    background-image: url("/assets/img/167-1677722_education-illustration-images-png.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 
 
 .header > h2 {
