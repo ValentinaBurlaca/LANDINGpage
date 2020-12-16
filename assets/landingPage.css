@@ -28,6 +28,7 @@ nav {
 }
 
 nav ul {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding-left: 85%;
@@ -35,6 +36,7 @@ nav ul {
 }
 
 nav ul li {
+    position: relative;
     margin-left: 2.5em;
 }
 
@@ -415,7 +417,8 @@ video {
 }
 footer {
     position: relative;
-    border: 1px solid blue;
+    height: 50px;
+    text-align: center;
 }
 
 a {
