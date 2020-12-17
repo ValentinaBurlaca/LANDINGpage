@@ -28,20 +28,19 @@ nav {
 }
 
 nav ul {
-    position: relative;
+    position: absolute;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    padding-left: 85%;
-    padding-top: 2%;
+    padding-left: 55%;
+    padding-top: 1.5%;
 }
 
 nav ul li {
-    position: relative;
     margin-left: 2.5em;
 }
 
 nav img {
-    padding-left: 5%;
+    padding-left: 8%;
     position: fixed;
     width: 180px;
     height: 85px;
@@ -272,7 +271,6 @@ video {
 	transform: rotateX(180deg);
 }
 
-
 .container {
     position: relative;
     display: grid;
@@ -293,9 +291,6 @@ video {
     animation-fill-mode: both;
     animation-delay: 1s;
 }
-
-
-
 
 .header > h2 {
     margin: 0;
