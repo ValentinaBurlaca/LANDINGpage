@@ -422,6 +422,8 @@ header li {
     list-style: none;
 }
 
-
-
-
+@media and sqreen (max-width="1285") {
+    #theory div ul li {
+        font-size: 60px;
+    }
+}
